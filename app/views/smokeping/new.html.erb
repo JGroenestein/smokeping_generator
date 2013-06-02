@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smokeping Generator</title>
+  <script language="javascript" type="text/javascript">
+    function addtext() {
+      var newtext = document.myform.inputtext.value;
+      var stringArray = document.getElementById('inputtext').value.split('\n');
+
+      var line1 = "        ++++ ";
+      var line2 = "        probe = FPing";
+      var line3 = "        menu = ";
+      var line4 = "        title = ";
+      var line5 = "        host = ";
+
+      var output = "\n" + line1 + "\n" + line2 + "\n" + line3 + newtext + "\n" + line4 + newtext +  "\n" + line5 + "\n\n"
+
+      document.myform.outputtext.value = "";
+      for (var i = 0; i < stringArray.length; ++i) {
+        document.myform.outputtext.value = document.myform.outputtext.value + "\n" + line1 + "\n" + line2 + i + "\n" + line3 + stringArray[i] + "\n" + line4 + stringArray[i] +  "\n" + line5 + "\n";
+      }
+      }
+
+  </script>
+
+  <script language="javascript" type="text/javascript">
+  function textToArray(){
+  var someArray = [];
+  var nameList = $("#inputtext").val();
+
+  $.each(nameList.split(/\n/), function (i, name) {
+
+    // empty string check
+      if(name != ""){
+
+      someArray.push(name);
+    }
+  });
+  </script>
+
+</head>
+<body>
+  <h1>Smokeping Generator</h1>
+
+  <form name="myform">
+      <textarea id="inputtext" rows="20" cols="200" ></textarea>
+      <input type="button" value="Submit" onClick="addtext();">
+      <p></p>
+      <textarea id="outputtext"rows="20" cols="200"></textarea>
+  </form>
+
+</body>
+</html>
