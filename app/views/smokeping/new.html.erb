@@ -3,8 +3,13 @@
 <head>
   <title>Smokeping Generator</title>
   <script language="javascript" type="text/javascript">
+
+    function clearContents(element) {
+      element.value = '';
+    }
+
     function addtext() {
-      var line1 = "        ++++ ";
+      var line1 = "        ++++ REPLACE";
       var line2 = "        probe = FPing";
       var line3 = "        menu = ";
       var line4 = "        title = ";
@@ -17,9 +22,12 @@
 
       document.myform.outputtext.value = "";
       for (var i = 0; i < stringArray.length; ++i) {
-
-        document.myform.outputtext.value = document.myform.outputtext.value + "\n" + line1 + "\n" + line2 + fping_counter + "\n" + line3 + stringArray[i].replace(patt, "").trim()
-          + "\n" + line4 + stringArray[i] + "\n" + line5 + " " + stringArray[i].match(patt) + "\n";
+          document.myform.outputtext.value = document.myform.outputtext.value + "\n"
+          + line1 + "\n"
+          + line2 + fping_counter + "\n"
+          + line3 + stringArray[i].replace(patt, "").trim() + "\n"
+          + line4 + stringArray[i] + "\n"
+          + line5 + " " + stringArray[i].match(patt) + "\n";
 
         if (fping_counter == 9) {fping_counter = 0;} else {fping_counter++;}
       }
@@ -34,6 +42,7 @@
   <form name="myform">
       <textarea id="inputtext" rows="20" cols="200" ></textarea>
       <input type="button" value="Submit" onClick="addtext();">
+      <input type="button" onclick="clearContents(inputtext), clearContents(outputtext)" value="Reset">
       <p></p>
       <textarea id="outputtext"rows="20" cols="200"></textarea>
   </form>

@@ -8,9 +8,9 @@
     <ignored path="smokeping_generator.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1369571423347" ignored="false" />
-    <file path="/new.html.erb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370803569183" ignored="false" />
+    <file path="/new.html.erb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370804346669" ignored="false" />
     <file path="/smokeping_controller.rb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1369571846615" ignored="false" />
-    <file path="/Dummy.txt" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370803347259" ignored="false" />
+    <file path="/Dummy.txt" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370803678011" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/smokeping/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="64" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.7366667">
+            <state line="37" column="38" selection-start="1185" selection-end="1185" vertical-scroll-proportion="1.0283333">
               <folding />
             </state>
           </provider>
@@ -535,7 +535,11 @@
       <created>1370803350886</created>
       <updated>1370803350886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cleaned up unused scripts and variables">
+      <created>1370803679806</created>
+      <updated>1370803679806</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -604,7 +608,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed formatting with trim and regex to find ip address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up unused scripts and variables" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -619,6 +623,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Fixed formatting with trim and regex to find ip address" />
+    <MESSAGE value="Cleaned up unused scripts and variables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -722,7 +727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/smokeping/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="64" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.7366667">
+        <state line="37" column="38" selection-start="1185" selection-end="1185" vertical-scroll-proportion="1.0283333">
           <folding />
         </state>
       </provider>
