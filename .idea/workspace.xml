@@ -8,9 +8,9 @@
     <ignored path="smokeping_generator.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1369571423347" ignored="false" />
-    <file path="/new.html.erb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370803130792" ignored="false" />
+    <file path="/new.html.erb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370803569183" ignored="false" />
     <file path="/smokeping_controller.rb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1369571846615" ignored="false" />
-    <file path="/Dummy.txt" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370803206523" ignored="false" />
+    <file path="/Dummy.txt" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370803347259" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/smokeping/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.39666668">
+            <state line="26" column="64" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.7366667">
               <folding />
             </state>
           </provider>
@@ -531,7 +531,11 @@
       <created>1370803208848</created>
       <updated>1370803208848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed formatting with trim and regex to find ip address">
+      <created>1370803350886</created>
+      <updated>1370803350886</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -718,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/smokeping/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.39666668">
+        <state line="26" column="64" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.7366667">
           <folding />
         </state>
       </provider>
