@@ -6,18 +6,24 @@
     function addtext() {
       var newtext = document.myform.inputtext.value;
       var stringArray = document.getElementById('inputtext').value.split('\n');
-
+      var x = 0;
       var line1 = "        ++++ ";
       var line2 = "        probe = FPing";
       var line3 = "        menu = ";
       var line4 = "        title = ";
       var line5 = "        host = ";
+      var output = "\n" + line1 + "\n" + line2 + "\n" + line3 + newtext + "\n" + line4 + newtext +  "\n" + line5 + "\n\n";
+      var patt = /\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/g;
 
-      var output = "\n" + line1 + "\n" + line2 + "\n" + line3 + newtext + "\n" + line4 + newtext +  "\n" + line5 + "\n\n"
+      stringArray = stringArray.filter(function(n){return n});
 
       document.myform.outputtext.value = "";
       for (var i = 0; i < stringArray.length; ++i) {
-        document.myform.outputtext.value = document.myform.outputtext.value + "\n" + line1 + "\n" + line2 + i + "\n" + line3 + stringArray[i] + "\n" + line4 + stringArray[i] +  "\n" + line5 + "\n";
+
+        document.myform.outputtext.value = document.myform.outputtext.value + "\n" + line1 + "\n" + line2 + x + "\n" + line3 + stringArray[i].replace(patt, "").trim()
+          + "\n" + line4 + stringArray[i] + "\n" + line5 + " " + stringArray[i].match(patt) + "\n";
+
+        if (x == 9) {x = 0;} else {x++;}
       }
       }
 
@@ -48,6 +54,7 @@
       <p></p>
       <textarea id="outputtext"rows="20" cols="200"></textarea>
   </form>
+
 
 </body>
 </html>
