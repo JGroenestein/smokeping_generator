@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e597331c-40ec-40a6-8285-dfd79f8bbdc0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/smokeping/new.html.erb" afterPath="$PROJECT_DIR$/app/views/smokeping/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smokeping_generator.iws" />
@@ -10,7 +9,7 @@
     <file path="/routes.rb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1369571423347" ignored="false" />
     <file path="/new.html.erb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370804346669" ignored="false" />
     <file path="/smokeping_controller.rb" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1369571846615" ignored="false" />
-    <file path="/Dummy.txt" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370803678011" ignored="false" />
+    <file path="/Dummy.txt" changelist="e597331c-40ec-40a6-8285-dfd79f8bbdc0" time="1370804625318" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -539,7 +538,11 @@
       <created>1370803679806</created>
       <updated>1370803679806</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleaned up unused scripts and variables">
+      <created>1370804626637</created>
+      <updated>1370804626637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
